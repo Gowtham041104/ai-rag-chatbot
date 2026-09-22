@@ -1,0 +1,40 @@
+{
+  "name": "rag-chatbot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "RAG (Retrieval-Augmented Generation) chatbot with pgvector and OpenAI",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:init": "node scripts/init-db.js"
+  },
+  "keywords": [
+    "rag",
+    "chatbot",
+    "ai",
+    "pgvector",
+    "openai"
+  ],
+  "author": "Cameron O'Brien",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/openai": "^1.1.3",
+    "@vercel/blob": "^2.0.0",
+    "@vercel/postgres": "^0.10.0",
+    "dotenv": "^17.2.3",
+    "jose": "^6.1.2",
+    "langchain": "^1.1.1",
+    "next": "^16.0.4",
+    "openai": "^6.9.1",
+    "pdf-parse": "^2.4.5",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18"
+  }
+}
